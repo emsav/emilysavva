@@ -25,6 +25,7 @@ nav li {
     display: inline;
     text-decoration: none;
     color: seashell;
+    text-align: right;
 }
 
 a {
