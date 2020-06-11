@@ -1,6 +1,9 @@
+* {
+    font-family: Arial, Helvetica, sans-serif, 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+
 body { 
-    font-family: Helvetica; 
-    font-size: 50pt;
     color: lightblue; 
     background-color: seashell; 
     opacity: 0.9;
@@ -23,17 +26,19 @@ nav {
 
 nav li {
     display: inline;
-    text-decoration: none;
     color: seashell;
-    text-align: right;
 }
 
 a {
-    padding: 30px;
+    padding: 20px;
     color: seashell;
 }
 
-.Main {
+a:hover {
+    font-size: 115%;
+}
+
+#Main {
     margin-top: 100px;
 }
 
@@ -59,6 +64,7 @@ img {
     max-height: 350px;
 }
 
+
 #project-list {
     display: inline;
 }
@@ -70,7 +76,7 @@ img {
 
 .e {
     color: black;
-    font-size: 15px;
+    font-size: 10px;
     text-align: left;
     margin: 10% 10%;
 }
@@ -84,16 +90,64 @@ img {
     background-color: white;
 }
 
-#Contact {
+/* Style for social icons */
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    background: seashell;
+    color: lightblue;
+    position: fixed;
+    display: block; 
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#linkedin {
+    bottom: 120px;
+    left: 10px;
+}
+
+#github {
+    bottom: 60px;
+    left: 10px;
+}
+
+/* This is the line below social */
+#social {
+    position: fixed;
+    bottom: 10px;
+    left: 36px;
+    width: 1px;
+    height: 45px;
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#Get-In-Touch {
     background-color: lightblue;
     padding: 20px;
+    margin: 0 50% 5% 10%;
 }
 
-#Contact p {
-    display: inline;
-    bottom: 0;
-    padding: 30px;
+
+#Get-In-Touch p {
+    color: seashell;
+    text-align: left;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+footer p {
+    font-family: "Lucida Console", Courier, monospace;
     color: seashell;
 }
-
-
