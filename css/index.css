@@ -46,9 +46,9 @@ a:link {
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     text-decoration: none;
-  }
+}
 
 #madrid {
     max-height: 250px;
