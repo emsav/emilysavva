@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif, 'Courier New', Courier, monospace;
     font-size: 12pt;
+    box-sizing: border-box;
 }
 
 body { 
@@ -27,11 +28,7 @@ nav {
 nav li {
     display: inline;
     color: seashell;
-}
-
-a {
     padding: 20px;
-    color: seashell;
 }
 
 a:hover {
@@ -40,11 +37,13 @@ a:hover {
 
 #Main {
     margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 a:link {
     text-decoration: none;
-  }
+}
   
 a:visited {
     text-decoration: none;
@@ -61,17 +60,17 @@ a:visited {
 }
 
 img {
-    max-height: 350px;
+    max-height: 300px;
 }
 
 
-#project-list {
+#project-list li{
     display: inline;
 }
 
 #vegan-corner {
     border-radius: 50%;
-    max-height: 275px;
+    max-height: 260px;
 }
 
 .e {
@@ -81,6 +80,18 @@ img {
     margin: 10% 10%;
 }
 
+p.date {
+    display: inline;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+h3.date {
+    display: inline-block;
+    font-size: 13pt;
+    font-weight: bold; 
+}
+
 .odd {
     background-color: lightblue;
     color: seashell;
@@ -88,6 +99,42 @@ img {
 
 .even {
     background-color: white;
+}
+
+#Get-In-Touch {
+    max-width: 500px;
+}
+
+#CV {
+    margin: 10px 10px;
+}
+
+/* Download button in navbar*/
+
+.btn {
+    cursor: pointer;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: seashell;
+    color: seashell;
+    background-color: lightblue;
+}
+
+/* Download buttons at bottom */
+#Get-In-Touch .btn {
+    background-color: seashell;
+    border: none;
+    color: lightblue;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+  
+/* Darker background on mouse-over */
+#Get-In-Touch .btn:hover {
+    font-size: 80%;
 }
 
 /* Style for social icons */
@@ -131,17 +178,6 @@ img {
     opacity: 0.7;
 }
 
-#Get-In-Touch {
-    background-color: lightblue;
-    padding: 20px;
-    margin: 0 50% 5% 10%;
-}
-
-
-#Get-In-Touch p {
-    color: seashell;
-    text-align: left;
-}
 
 footer {
     background-color: lightblue;
