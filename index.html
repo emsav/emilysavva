@@ -7,29 +7,33 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <script src="./script.js"></script>
         <title>Emily Savva</title>
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <!--Header-->
         <header>
-            <nav>
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li><a href="#Project-Section">Projects</a></li>
-                    <li><a href="#Experience">Experience</a></li>
-                    <li><a href="#Education">Education</a></li>
-                    <li><a href="#Get-In-Touch">Get In Touch</a></li>
-                    <li><a href="Emily Savva CV web developer.docx" target="_blank"><button class="btn">Download My CV</button></a></li>
+            <nav class="navbar navbar-fixed-top">
+                <ul class="nav navbar-nav">
+                    <li style="float:left"><a class="Emily" href="#About-Me">Emily Savva</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Emily Savva CV web developer.docx" target="_blank"><button class="btn">Download My CV</button></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Get-In-Touch">Get In Touch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Project-Section">Projects</a></li>
                 </ul>
           </nav>
         </header>
 
         <!--Main Content Container-->
-        <div class="w3-container" id="Main">
+        <div class="container" class="w3-container" id="Main">
+            
             <!--About Me Section-->
-            <div class="w3-container" id="About-Me">
-                <img id="madrid" src="proseco.jpg">
-                <h2>EMILY SAVVA</h2>
+            <div class="container" class="w3-container" id="About-Me">
+                <img class="profile-picture" src="proseco.jpg">
+                <br>
                 <h3>Self-taught web developer and University of Sussex graduate.</h3>
                 <p>Hard-working and organised self taught web developer who has designed and built websites
                     through evening classes and online tutorials. Recently returned from working as an
@@ -39,11 +43,12 @@
             </div>
 
             <!--Projects Section-->
-            <div class="w3-container" id="Project-Section">
+            <div class="container" class="w3-container" id="Project-Section">
                 <br><br>
                 <h2>Projects</h2>
                 <ul id="project-list">
                     <li><img src="watch-this-space.png"></li>
+                    <li><a href ="britinbilbao.com" target="_blank"><img id="britinbilbao" src="BritInBilbao.png" alt="Brit in Bilbao Website"></li>
                     <li><a href="file:///Users/savva/Desktop/vegancorner/index.html" target="_blank"><img id="vegan-corner" src="vegancorner.png" alt="Vegan_Corner_Wedsite"></a></li>
                     <li><img src="watch-this-space.png"></li>
                 </ul>
@@ -51,17 +56,17 @@
             </div>
 
             <!--Experience Section-->
-            <div id="Experience" class="w3-container e">
+            <div class = "container w3-container e" id="Experience">
                 <br><br>
                 <h2>Experience</h2>
-                <div class="w3-container odd" id="Barakaldo">
+                <div class="container w3-container odd" id="Barakaldo">
                     <h3 class="date">English Language Assisstant at EOI Barakaldo, Bilbao, Spain</h3>
                     <p class="date">(Oct 19-May 20)</p>
                     <p>Planned and conducted lessons for up to 30 adult students with a range of levels of English.</p>
                     <p>Coordinated with many different teachers, adapting lesson plans based on the needs of the students.</p>
                 </div>
 
-                <div class="w3-container even" id=Caroline>
+                <div class="container w3-container even" id=Caroline>
                     <h3 class="date">Intern at Caroline Lucas Consituency Office, Brighton</h3>
                     <p class="date">(Feb 19-May 19)</p>
                     <p>Conducted qualitative research on the accessibility of private renting to those receiving
@@ -71,7 +76,7 @@
                     <p>Witnessed complex policy issues and commercial challenges first hand.</p>
                 </div>
 
-                <div class="w3-container odd" id=Sussex>
+                <div class="container w3-container odd" id=Sussex>
                     <h3 class="date">Research Assistant at University of Sussex, Brighton</h3>
                     <p class="date">(Summer 18)</p>
                     <p>Attained research skills and attention to detail by sorting through thousands of photos
@@ -79,7 +84,7 @@
                     <p>Worked independently and efficiently, finishing the project well-ahead of time.</p>
                     </div>
 
-                <div class="w3-container even" id=CED>
+                <div class="container w3-container even" id=CED>
                     <h3 class="date">Intern at Centre for Education and Development, Hanoi, Vietnam </h3>
                     <p class="date">(Oct 15)</p>
                     <p>CED is an NGO which conducts research and implements programs in education to
@@ -97,7 +102,7 @@
             <div id="Education" class="w3-container e">
                 <br><br>
                 <h2>Education</h2>
-                <div class="w3-container odd" id="coding">
+                <div class="container w3-container odd" id="coding">
                     <h3 class="date">Self-taught Web Development</h3>
                     <p class="date">(Jan 19-present)</p>
                     <p>Attended Code First: Girls evening classes, where I built a website with a partner using HTML, CSS, JavaScript and Github collaboration.  </p>
@@ -105,7 +110,7 @@
                     <p>Currently building on previous knowledge by working through Codecademy online Web Development course.</p>
                 </div>
 
-                <div class="w3-container even" id=uni>
+                <div class="container w3-container even" id=uni>
                     <h3 class="date">BA(Hons) Politics at Univeristy of Sussex</h3>
                     <p class="date">(Sep 16-Sep 19)</p>
                     <p>Attained 2:1 (65%) with key modules including: 
@@ -119,7 +124,7 @@
                     <p>Transferable skills obtained include problem solving, excellent presentation skills and project managment.</p>
                 </div>
 
-                <div class="w3-container odd" id=alevel>
+                <div class="container w3-container odd" id=alevel>
                     <h3 class="date">Beaulieu Convent School</h3>
                     <p class="date">(Sep 03-Jul 15)</p>
                     <p>A-Levels: Mathematics (B), Geography (B), English Literature (C)</p>
@@ -129,7 +134,7 @@
             </div>
 
             <!--Get In Touch-->
-            <div id="Get-In-Touch" class="w3-container e">
+            <div id="Get-In-Touch" class="container w3-container e">
                 <br>
                 <h2>Get In Touch</h2>
                 <div class="w3-container odd" >
@@ -142,13 +147,13 @@
         </div>
 
         <!--Social links-->
-        <div id="social">
+        <div class= "container" id="social">
             <a href="https://github.com/emsav" target="_blank" class="fa fa-github" id="github"></a>
             <a href="https://www.linkedin.com/in/emily-savva-a54b48174/" target="_blank" class="fa fa-linkedin" id="linkedin"></a> 
         </div>
 
         <!--Footer Section-->
-        <footer class="w3-container" class="courier">
+        <footer class="container w3-container" class="courier">
             <p>Designed & Built by Emily Savva</p>
         </footer>
     </body>
