@@ -12,10 +12,16 @@ body {
     text-align: center;
     position: center;
     align-content: center;
+    position: relative;
 }
 
 h2 {
-    color: black;
+    color: grey;
+}
+
+.Emily {
+    font-weight: bolder;
+    font-size: 120%;
 }
 
 nav {
@@ -26,13 +32,45 @@ nav {
 }
 
 nav li {
-    display: inline;
     color: white;
-    padding: 20px;
+    padding: 10px 20px;
+    float: right;
 }
 
-a:hover {
-    font-size: 115%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Change the weight of links on hover */
+.nav a:hover {
+    font-weight: bold;
+  }
+
+nav .btn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: lightblue;
+}
+
+a:hover .btn {
+    cursor: pointer;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    background-color: lightblue;
+
 }
 
 #Main {
@@ -40,23 +78,16 @@ a:hover {
     margin-left: 10%;
     margin-right: 10%;
 }
-
-a:link {
-    text-decoration: none;
-}
   
 a:visited {
     text-decoration: none;
 }
 
-#madrid {
+.profile-picture {
     max-height: 250px;
     border-radius: 50%;
-}
-
-#about-me {
-    max-height: 350px;
-    padding: 50px 50px;
+    float: center;
+    margin: 0 50px 0 0;
 }
 
 img {
@@ -73,8 +104,13 @@ img {
     max-height: 260px;
 }
 
+#britinbilbao {
+    border-radius: 50%;
+    max-height: 260px;
+}
+
 .e {
-    color: black;
+    color: grey;
     font-size: 10px;
     text-align: left;
     margin: 10% 10%;
@@ -98,7 +134,7 @@ h3.date {
 }
 
 .even {
-    background-color: white;
+    color: grey;
 }
 
 #Get-In-Touch {
@@ -107,17 +143,6 @@ h3.date {
 
 #CV {
     margin: 10px 10px;
-}
-
-/* Download button in navbar*/
-
-.btn {
-    cursor: pointer;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: white;
-    color: white;
-    background-color: lightblue;
 }
 
 /* Download buttons at bottom */
@@ -187,3 +212,7 @@ footer p {
     font-family: "Lucida Console", Courier, monospace;
     color: white;
 }
+
+
+
+
