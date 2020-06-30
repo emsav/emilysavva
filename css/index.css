@@ -27,12 +27,6 @@ h2 {
     color: grey;
 }
 
-#About-Me {
-    background: url('BackgroundBlue.png') right top no-repeat;
-    background-size: 420px auto, auto 900px;
-    background-attachment: fixed, fixed;
-}
-
 a:hover .btn {
     cursor: pointer;
     border-radius: 25px;
@@ -41,11 +35,9 @@ a:hover .btn {
     border-width: 1px;
     color: white;
     background-color: lightblue;
-
 }
 
 #Main {
-    margin-top: 100px;
     max-width: 80%;
 }
   
@@ -72,8 +64,6 @@ a:visited {
 
 #vegan-corner {
     border-radius: 50%;
-    border-width: 5px;
-    border-color: lightblue;
 }
 
 #britinbilbao {
