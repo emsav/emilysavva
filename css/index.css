@@ -15,51 +15,22 @@ body {
     position: relative;
 }
 
+#collapsibleNavbar li {
+    float: right;
+}
+
+#carouselExampleIndicators {
+    opacity: 0.8;
+}
+
 h2 {
     color: grey;
 }
 
-.Emily {
-    font-weight: bolder;
-    font-size: 120%;
-}
-
-nav {
-    background-color: lightblue;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-nav li {
-    color: white;
-    padding: 10px 20px;
-    float: right;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-  
-nav a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* Change the weight of links on hover */
-.nav a:hover {
-    font-weight: bold;
-  }
-
-nav .btn {
-    cursor: pointer;
-    border: none;
-    color: white;
-    background-color: lightblue;
+#About-Me {
+    background: url('BackgroundBlue.png') right top no-repeat;
+    background-size: 420px auto, auto 900px;
+    background-attachment: fixed, fixed;
 }
 
 a:hover .btn {
@@ -75,8 +46,7 @@ a:hover .btn {
 
 #Main {
     margin-top: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 80%;
 }
   
 a:visited {
@@ -90,18 +60,20 @@ a:visited {
     margin: 0 50px 0 0;
 }
 
-img {
-    max-height: 300px;
+
+.project-list li{
+    display: inline;
+    margin: 10px 10px 10px 10px;
 }
 
-
-#project-list li{
-    display: inline;
+.project-list img{
+    max-height: 260px;
 }
 
 #vegan-corner {
     border-radius: 50%;
-    max-height: 260px;
+    border-width: 5px;
+    border-color: lightblue;
 }
 
 #britinbilbao {
@@ -113,7 +85,6 @@ img {
     color: grey;
     font-size: 10px;
     text-align: left;
-    margin: 10% 10%;
 }
 
 p.date {
@@ -187,18 +158,6 @@ h3.date {
     left: 10px;
 }
 
-/* This is the line below social */
-#social {
-    position: fixed;
-    bottom: 10px;
-    left: 36px;
-    width: 1px;
-    height: 45px;
-    border-color: lightblue;
-    border-style: solid;
-    border-width: 1px;
-}
-
 .fa:hover {
     opacity: 0.7;
 }
@@ -212,7 +171,3 @@ footer p {
     font-family: "Lucida Console", Courier, monospace;
     color: white;
 }
-
-
-
-
