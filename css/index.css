@@ -99,11 +99,33 @@ h3.date {
 }
 
 #Get-In-Touch {
-    max-width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
 }
 
-#CV {
-    margin: 10px 10px;
+#CV img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100px;
+
+}
+
+#CV img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
 }
 
 /* Download buttons at bottom */
