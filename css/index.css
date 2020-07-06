@@ -24,12 +24,36 @@ body {
 }
 
 .carousel-content {
-    position: absolute;
     bottom: 10%;
     left: 5%;
-    z-index: 20;
     color: white;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-inner {
+    max-height: 500px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#about-me {
+    z-index: 1;
+    position: absolute;
+    margin-left: auto;
+}
+
+#About-Me-Text {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    max-width: 600px;
+}
+
+
+.profile-picture {
+    max-height: 250px;
+    border-radius: 50%;
+    max-width: 25%
 }
 
 h2 {
@@ -48,7 +72,7 @@ a:hover .btn {
 }
 
 #Main {
-    margin-top: 100px;
+    margin-top: 25px;
     max-width: 80%;
 }
   
@@ -56,12 +80,7 @@ a:visited {
     text-decoration: none;
 }
 
-.profile-picture {
-    max-height: 250px;
-    border-radius: 50%;
-    float: center;
-    top: 20px;
-}
+
 
 .project-list li {
     display: inline;
@@ -107,6 +126,8 @@ h3.date {
 .odd {
     background-color: lightblue;
     color: white;
+    padding: 0 20px 20px 20px;
+
 }
 
 .even {
@@ -118,8 +139,6 @@ h3.date {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    max-width: 50px;
-
 }
 
 #CV img:hover {
@@ -131,6 +150,7 @@ div.polaroid {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
+    min-width: 165px;
 }
 
 
