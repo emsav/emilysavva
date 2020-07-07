@@ -60,27 +60,14 @@ h2 {
     color: grey;
 }
 
-a:hover .btn {
-    cursor: pointer;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    color: white;
-    background-color: lightblue;
-
-}
-
 #Main {
     margin-top: 25px;
     max-width: 80%;
 }
-  
+
 a:visited {
     text-decoration: none;
 }
-
-
 
 .project-list li {
     display: inline;
@@ -111,27 +98,24 @@ a:visited {
     text-align: left;
 }
 
-p.date {
-    display: inline;
-    font-size: 10pt;
-    font-style: italic;
-}
-
-h3.date {
-    display: inline-block;
-    font-size: 13pt;
-    font-weight: bold; 
-}
 
 .odd {
     background-color: lightblue;
     color: white;
-    padding: 0 20px 20px 20px;
-
 }
 
 .even {
     color: grey;
+}
+
+.odd-title {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.even-title {
+    color: grey;
+    font-size: 1.2rem;
 }
 
 
@@ -171,7 +155,6 @@ div.polaroid {
     font-size: 80%;
 }
 
-/* Style for social icons */
 .fa {
     padding: 20px;
     text-decoration: none;
@@ -192,12 +175,28 @@ div.polaroid {
 }
 
 #github {
-    bottom: 5px;
+    bottom: 3px;
     left: 5px;
 }
 
 .fa:hover {
     opacity: 0.7;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
 }
 
 
@@ -212,7 +211,3 @@ footer p {
     font-family: "Lucida Console", Courier, monospace;
     color: white;
 }
-
-
-
-
